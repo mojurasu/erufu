@@ -9,8 +9,9 @@ epm:install github.com/mojurasu/erufu
 
 ## Modules
 ### ssh-agent
-`ssh-agent:run` Runs the ssh-agent and sets the required environment variables.
+Makes it possible to use the OpenSSH Agent with elvish.
 
-Supported Arguments: bind_adress, foreground, debug, fingerprint_hash, pkcs11_whitelist, lifetime (look at the man page of ssh-agent on how to use them)
+
+`ssh-agent:run` Runs the ssh-agent and sets the required environment variables. Supported Arguments: `bind_adress`, `foreground`, `debug`, `fingerprint_hash`, `pkcs11_whitelist`, `lifetime` (look at the man page of ssh-agent on how to use them)
 
 `ssh-agent:kill` Kill the current ssh-agent and unset its environment variables. 
